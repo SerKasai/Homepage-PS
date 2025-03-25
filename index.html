@@ -14,15 +14,21 @@
 <body>
   <header>
     <section id="mainbar">
-      <div class="container-fluid">
+      <div class="container-fluid fixed-top bg-white">
         <div class="row">
           <div class="col-12 d-flex flex-row-reverse bg-black"><img src="img/sony_logo.svg" alt=""></div>
         </div>
-        <nav class="navbar navbar-expand-lg">
+
+        <nav class="navbar navbar-expand-lg p-0">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img src="img/play_logo.svg" alt="Playstation" width="60" height="60">
             </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
@@ -128,7 +134,7 @@
                 <button type="button" class="btn btn-dark rounded-pill">Accedi</button>
               </ul>
               <a class="navbar-brand" href="#">
-                <img src="img/lens.svg" alt="Playstation" width="40" height="40">
+                <img class="lente" src="img/lens.svg" alt="Search" width="40" height="40">
               </a>
             </div>
           </div>
@@ -136,6 +142,25 @@
       </div>
     </section>
   </header>
+  <main>
+    <section id="jumbo" class="bg-black py-5 text-white">
+      <img src="img/jumbo-bg.png" class="img-fluid" style="padding-top: 48px;" alt="">
+      <!-- <div class="container-fluid text-white px-0 pt-5 position-relative"> -->
+      <!-- </div> -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <!-- <img class="position-absolute top-50 start-50 translate-middle text-white fs-1"
+              src="img/returnal-hero-banner-logo.png" alt=""> -->
+            <h2>Rompi il cerchio</h2>
+            <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller
+              fantascientifico, disponibile in esclusiva su PS5</p>
+            <button type="button" class="btn btn-danger rounded-pill">Acquista ora</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
 
 

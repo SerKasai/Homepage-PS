@@ -2,3 +2,16 @@
   max-width: 100px;
   padding: 5px
 }
+
+
+
+
+
+/* media query */
+
+@media screen and (max-width: 992px) {
+  .lente {
+    display: none;
+  }
+
+}
