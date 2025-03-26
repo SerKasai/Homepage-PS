@@ -3,8 +3,38 @@
   padding: 5px
 }
 
+#jumbo {
+  background-image: url(img/jumbo-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 96px;
+  background-position-x: center;
+}
 
+#jumbo .container {
+  padding-top: 160px;
+}
 
+#jumbo .row {
+  height: 100%;
+}
+
+#jumbo img {
+  width: 100%;
+}
+
+#jumbo-games .container {
+  padding: 150px;
+}
+
+#jumbo-games img {
+  max-width: 100%;
+}
+
+.border-primary {
+  border-style: double;
+}
 
 
 /* media query */
