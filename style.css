@@ -34,12 +34,21 @@
   min-width: 150px;
 }
 
-.border-primary:hover {
+#jumbo-games .border-primary:hover {
   border-style: double;
 }
 
 #play5 img {
   max-width: 100%;
+  padding: 20px;
+}
+
+#play5 .container {
+  padding-bottom: 30px;
+}
+
+#play5 img:hover {
+  opacity: 1 !important;
 }
 
 
