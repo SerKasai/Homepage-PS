@@ -97,11 +97,25 @@
   opacity: 0.5;
 }
 
+#ps4 {
+  position: relative;
+  top: 96px;
+  padding: 15px 0;
+}
+
+#ps4 img {
+  max-width: 100%;
+}
+
 /* media query */
 
 @media screen and (max-width: 992px) {
   .lente {
     display: none;
+  }
+
+  #ps4 h1:nth-child(2) {
+    font-size: 33px;
   }
 }
 
@@ -112,5 +126,14 @@
 
   #it-takes-2 img {
     max-width: 60%;
+  }
+
+  #new-release {
+    text-align: center;
+  }
+
+
+  #ps4 [class*="col-"] {
+    padding-bottom: 30px;
   }
 }
