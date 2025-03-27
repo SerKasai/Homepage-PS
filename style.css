@@ -36,6 +36,8 @@
 
 #jumbo-games .border-primary:hover {
   border-style: double;
+  transform: translateY(-10px);
+  transition: ease-in-out 0.2s;
 }
 
 #play5 img {
@@ -169,6 +171,46 @@
   max-width: 80%;
 }
 
+#social img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+footer {
+  padding-top: 110px;
+}
+
+footer .container-fluid {
+  padding: 60px;
+  padding-bottom: 30px;
+}
+
+footer img {
+  max-width: 30%;
+}
+
+footer p {
+  margin-bottom: 5px;
+}
+
+.logo img {
+  max-width: 20%;
+}
+
+.lang {
+  max-height: 13%;
+  column-gap: 5px;
+  margin-top: 2%;
+  width: 61%;
+}
+
+.lang img {
+  max-width: 6%;
+}
+
+.col-4 a {
+  color: white !important;
+}
 
 
 
@@ -176,7 +218,7 @@
 
 /* media query */
 
-@media screen and (max-width: 992px) {
+@media all and (max-width: 992px) {
   .lente {
     display: none;
   }
@@ -186,7 +228,11 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
+  #jumbo {
+    text-shadow: 2px 2px 10px black;
+  }
+
   #it-takes-2 {
     text-shadow: 2px 2px 10px black;
   }
@@ -202,5 +248,85 @@
 
   #ps4 [class*="col-"] {
     padding-bottom: 30px;
+  }
+
+  .lang {
+    margin-top: 5%;
+  }
+
+  .lang img {
+    max-width: 20%;
+  }
+
+  .logo {
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  #ps-plus .col-6:nth-child(1) img {
+    max-width: 100%;
+  }
+
+  #ps-now .col-6:nth-child(1) img {
+    max-width: 100%;
+  }
+}
+
+@media all and (max-width: 375px) {
+  #mainbar .col-12 {
+    justify-content: center;
+  }
+
+  #play5 .col-6:nth-child(2) img {
+    margin-bottom: 54px;
+  }
+
+  #play5 button {
+    width: 215%;
+  }
+
+  #play5 img {
+    padding: 0;
+  }
+
+  #play5 .catalogue img {
+    max-width: 50%;
+  }
+
+  #ps-plus .container {
+    padding: 10px;
+  }
+
+  #ps-plus .col-6:nth-child(1) img {
+    padding: 15px 0;
+  }
+
+  #ps-plus button {
+    width: 226%;
+  }
+
+  #ps-now .container {
+    padding: 10px;
+  }
+
+  #ps-now .col-6:nth-child(1) img {
+    padding: 15px 0;
+  }
+
+  #ps-now button {
+    width: 226%;
+  }
+
+  footer .container-fluid {
+    padding: 35px;
+  }
+
+  .logo {
+    align-content: center;
+  }
+
+  .lang {
+    max-height: 21%;
   }
 }
