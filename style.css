@@ -41,6 +41,8 @@
 #play5 img {
   max-width: 100%;
   padding: 20px;
+  cursor: pointer;
+
 }
 
 #play5 .container {
@@ -51,6 +53,49 @@
   opacity: 1 !important;
 }
 
+#it-takes-2 {
+  background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 96px;
+  background-position-x: center;
+}
+
+#it-takes-2 .row {
+  height: 100%;
+}
+
+#it-takes-2 img {
+  max-width: 80%;
+}
+
+#it-takes-2 .container {
+  padding: 30px 10px;
+}
+
+#new-release {
+  position: relative;
+  top: 96px;
+  padding: 15px 0;
+}
+
+#new-release img {
+  width: 90%;
+  cursor: pointer;
+}
+
+#new-release h2 {
+  padding: 5px 0;
+}
+
+#new-release h3 {
+  padding-bottom: 5px;
+}
+
+#new-release img:hover {
+  opacity: 0.5;
+}
 
 /* media query */
 
@@ -58,5 +103,14 @@
   .lente {
     display: none;
   }
+}
 
+@media screen and (max-width: 768px) {
+  #it-takes-2 {
+    text-shadow: 2px 2px 10px black;
+  }
+
+  #it-takes-2 img {
+    max-width: 60%;
+  }
 }
