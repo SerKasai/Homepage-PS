@@ -100,12 +100,71 @@
 #ps4 {
   position: relative;
   top: 96px;
-  padding: 15px 0;
+  padding: 35px 0;
 }
 
 #ps4 img {
   max-width: 100%;
 }
+
+#ps-plus {
+  position: relative;
+  top: 96px;
+}
+
+#ps-plus .col-6:nth-child(1) {
+  width: 46%;
+}
+
+#ps-plus img {
+  max-width: 100%;
+}
+
+#ps-plus .col-6:nth-child(1) img {
+  max-width: 50%;
+  padding-bottom: 30px;
+}
+
+#ps-store {
+  position: relative;
+  top: 96px;
+  padding: 35px 0;
+}
+
+#ps-store img {
+  max-width: 100%;
+}
+
+#ps-store img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#ps-now {
+  position: relative;
+  top: 96px;
+  background-color: #021b3f;
+}
+
+#ps-now .col-6:nth-child(1) {
+  width: 46%;
+}
+
+#ps-now img {
+  max-width: 100%;
+}
+
+#ps-now .col-6:nth-child(1) img {
+  max-width: 50%;
+  padding-bottom: 30px;
+}
+
+
+
+
+
+
+
 
 /* media query */
 
