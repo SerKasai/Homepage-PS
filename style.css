@@ -273,7 +273,7 @@ footer p {
   }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 576px) {
   #mainbar .col-12 {
     justify-content: center;
   }
