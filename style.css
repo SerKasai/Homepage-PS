@@ -3,6 +3,11 @@
   padding: 5px
 }
 
+.dropdown-menu {
+  width: fit-content !important;
+  height: 200px !important;
+}
+
 #jumbo {
   background-image: url(img/jumbo-bg.png);
   background-size: cover;
@@ -34,25 +39,30 @@
   min-width: 150px;
 }
 
-#jumbo-games .border-primary:hover {
-  border-style: double;
+#jumbo-games img:hover {
   transform: translateY(-10px);
   transition: ease-in-out 0.2s;
+}
+
+#jumbo-games .border-primary {
+  border-style: double;
 }
 
 #play5 img {
   max-width: 100%;
   padding: 20px;
   cursor: pointer;
+}
 
+.catalogue [class*="col-"]:hover {
+  border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important;
+  opacity: 1 !important;
 }
 
 #play5 .container {
   padding-bottom: 30px;
-}
-
-#play5 img:hover {
-  opacity: 1 !important;
 }
 
 #it-takes-2 {
