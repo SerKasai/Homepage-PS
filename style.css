@@ -3,9 +3,13 @@
   padding: 5px
 }
 
-.dropdown-menu {
-  width: fit-content !important;
-  height: 200px !important;
+.dropdown-menu-fixed {
+  left: 0 !important;
+  right: 0 !important;
+  top: 93px !important;
+  position: fixed !important;
+  border: none !important;
+  border-radius: 0 !important;
 }
 
 #jumbo {
@@ -15,6 +19,7 @@
   position: relative;
   top: 96px;
   background-position-x: center;
+  text-shadow: 2px 2px 10px black;
 }
 
 #jumbo .container {
@@ -72,6 +77,8 @@
   position: relative;
   top: 96px;
   background-position-x: center;
+  text-shadow: 2px 2px 10px black;
+
 }
 
 #it-takes-2 .row {
@@ -239,12 +246,21 @@ footer p {
 }
 
 @media all and (max-width: 768px) {
-  #jumbo {
-    text-shadow: 2px 2px 10px black;
+  .drop-right {
+    padding: 10px 0;
   }
 
-  #it-takes-2 {
-    text-shadow: 2px 2px 10px black;
+  .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .dropdown-menu-fixed {
+    position: static !important;
+  }
+
+  .dropdown-menu-fixed ul {
+    list-style: none;
   }
 
   #it-takes-2 img {
@@ -284,6 +300,15 @@ footer p {
 }
 
 @media all and (max-width: 576px) {
+  .navbar-nav {
+    width: 68%;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+  }
+
   #mainbar .col-12 {
     justify-content: center;
   }
